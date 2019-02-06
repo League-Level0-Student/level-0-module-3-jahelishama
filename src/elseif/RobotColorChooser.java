@@ -22,16 +22,26 @@ public class RobotColorChooser {
         if (yah.equals ("blue")) {
 			jah.setPenColor(Color.BLUE);
 		} 
+        else {
+			
+		}if (yah.equals("red")) {
+			jah.setPenColor(Color.RED);
+			
+
+		}
+		else {
+		jah.setRandomPenColor();
+		}
         //5. if the user doesn’t enter anything, choose a random color
-        jah.setRandomPenColor();
+        
 			
 		
         //6. put a loop around your code so that you keep asking the user for more colors & drawing them
-		
+	
 			
 		
 		//2. set the pen width to 10
-		
+		jah.setPenWidth(10);
 	    //1. make the robot draw a shape (this will take more than one line of code
         jah.penDown();
         jah.move(100);
