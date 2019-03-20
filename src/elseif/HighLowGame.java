@@ -19,8 +19,9 @@ public class HighLowGame {
 			// 1. ask the user for a guess using a pop-up window, and save their response 
 		String jack=JOptionPane.showInputDialog("Give me a pop up window");
 			// 4. convert the users’ answer to an int (Integer.parseInt(string))
-			Integer.parseInt(jack); 
+		int random= Integer.parseInt(jack); 
 			// 5. if the guess is correct
+			
 				// 6. win
 			// 7. if the guess is high
 				// 8. tell them it's too high
